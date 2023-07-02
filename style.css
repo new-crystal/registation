@@ -1,0 +1,139 @@
+input[type=text]{
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+}
+
+input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    transform: translateY(2.5px);
+}
+
+input[type=radio]{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    transform: translateY(2.5px);
+}
+
+span {
+    color: #c1121f;
+    font-weight: 600;
+}
+
+label {
+    font-weight: 600;
+}
+
+textarea {
+    height: 150px;
+    background-color: #fff;
+}
+table{
+    border-collapse: collapse;
+}
+
+p{
+    margin: 0;
+}
+.wrap_1 table {
+    border: 1px solid #7d8597;
+    border-top: 2px solid #7d8597;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.wrap_1 th, .wrap_1 td {
+    border: 1px solid #7d8597;
+  }
+
+  .tbl_type01 th,  .tbl_type01 td {
+    border: 1px solid #7d8597;
+  }
+
+  th{
+    height: 50px;
+    background-color: #eee;
+  }
+.container {
+    width: 70vw;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.confirm_box {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.confirm_box_title {
+    text-align: center;
+    background-color: #e1e1e1;
+}
+
+.all_checkbox{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal_checkbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.personal_checkbox > div {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.next_btn_box, .final_btn_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next_btn_box > button, .final_btn {
+    width: 60%;
+    height: 50px;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.full_input {
+    width: 70%;
+}
+
+.tbl_type01 td{
+    padding: 16px;
+    text-align: left;
+}
+
+.wrap_2_2 > table {
+    border: none;
+}
+
+.category {
+    height: 80px;
+}
+
+.select_category {
+    width: 95%;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+
+.member {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
