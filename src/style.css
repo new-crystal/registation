@@ -1,6 +1,7 @@
 input[type=text]{
     border: 1px solid #ddd;
     padding: 8px 16px;
+    width: 300px;
 }
 
 input[type=checkbox]{
@@ -54,10 +55,10 @@ p{
 
   th{
     height: 50px;
-    background-color: #eee;
+    background-color: rgb(186 230 253);;
   }
 .container {
-    width: 70vw;
+    width: 1300px;
     padding: 0;
     margin: 20px auto;
 }
@@ -102,10 +103,11 @@ p{
 }
 
 .next_btn_box > button, .final_btn {
-    width: 60%;
+    width: 30%;
     height: 50px;
     font-size: 24px;
-    letter-spacing: 5px;
+    border: 1px solid #7d8597;
+    margin: 20px;
 }
 
 .full_input {
